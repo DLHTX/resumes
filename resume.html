@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>徐良俊</title>
+    <meta name="description" content="我是一名前端开发工程师，拥有4年的工作经验以及在各种公司和项目中的工作经验。开发过涵盖大部分场景的应用，我主要熟悉的前端技术栈是Vue和React，熟悉搭建各种应用架构，熟悉ES6 Ajax JSON ,微信小程序开发，app H5混合开发，electron桌面端应用混合开发，并了解一点后端知识，有实际后端项目经验，如Java、python、mysql，以及mysql，中间件、模块。了解Linux相关知识，有自己组装服务器的经验。大多数项目都部署在自己的服务器中，并且热爱新技术，热爱学习和分享">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
+    <style>:root {
+  /* Colors */
+  --primaryColor: #212529;
+  --secondaryColor: #95a5a6;
+  --accentColor: #f1c40f;
+  --linkColor: #2ecc71;
+  --mutedColor: #f4f6f6;
+
+  /* Typography */
+  --ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--ratio));
+  --scale2: calc(var(--scale1) * var(--ratio));
+  --scale3: calc(var(--scale2) * var(--ratio));
+  --scale4: calc(var(--scale3) * var(--ratio));
+  --scale5: calc(var(--scale4) * var(--ratio));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: var(--primaryColor);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+  margin-bottom: 4em;
+}
+
+body::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+li + li {
+  margin-top: 0.2em;
+}
+
+li::marker {
+  color: var(--mutedColor);
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:focus,
+a:hover {
+  color: var(--accentColor);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--scale5);
+}
+
+h2 {
+  color: var(--secondaryColor);
+  font-size: var(--scale4);
+}
+
+h3 {
+  color: var(--accentColor);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--scale2);
+}
+
+h5 {
+  font-size: var(--scale1);
+}
+
+h6 {
+  font-size: var(--scale0);
+}
+
+blockquote {
+  border-left: 0.2em solid var(--mutedColor);
+  padding-left: 1em;
+}
+
+cite {
+  color: var(--secondaryColor);
+  font-style: inherit;
+}
+
+cite::before {
+  content: '— ';
+}
+
+.masthead {
+  background: var(--mutedColor);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+  row-gap: 0;
+}
+
+.masthead > *,
+section {
+  grid-column: main;
+}
+
+article > * + *,
+blockquote > * + * {
+  margin-top: 0.6em;
+}
+
+.stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.spaced-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spaced-list:first-child::before {
+  border-bottom: 1px solid var(--mutedColor);
+  content: '';
+  flex-grow: 1;
+  margin: 0 1em;
+  order: 1;
+}
+
+.spaced-list > :nth-child(2) {
+  order: 2;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: var(--mutedColor);
+  margin: 0 0.2em 0.2em 0;
+  padding: 0.2em 0.6em;
+}
+
+@media print, (min-width: 48em) {
+  h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  .masthead > *,
+  section {
+    grid-column: content;
+  }
+
+  section {
+    display: contents;
+  }
+
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+  </head>
+  <body>
+      <header class="masthead">
+          <h1>徐良俊</h1>
+          <h2>前端开发</h2>
+      </header>
+      <section id="contact">
+        <h3>Contact</h3>
+        <div class="grid-list">
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:dlhtx3@gmail.com">dlhtx3@gmail.com</a>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              (86) 13913849623
+            </div>
+            <div>
+              <h4>Website</h4>
+              <a href="https://github.com/DLHTX">github.com/DLHTX</a>
+            </div>
+        </div>
+      </section>
+        <section id="about">
+          <h3>About</h3>
+          <article>
+            <p>我是一名前端开发工程师，拥有4年的工作经验以及在各种公司和项目中的工作经验。开发过涵盖大部分场景的应用，我主要熟悉的前端技术栈是Vue和React，熟悉搭建各种应用架构，熟悉ES6 Ajax JSON ,微信小程序开发，app H5混合开发，electron桌面端应用混合开发，并了解一点后端知识，有实际后端项目经验，如Java、python、mysql，以及mysql，中间件、模块。了解Linux相关知识，有自己组装服务器的经验。大多数项目都部署在自己的服务器中，并且热爱新技术，热爱学习和分享</p>
+          </article>
+        </section>
+        <section id="profiles">
+          <h3>Profiles</h3>
+          <div class="grid-list">
+              <div>
+                  <h4>Github</h4>
+                    <a href="https://github.com/DLHTX">DLHTX</a>
+              </div>
+              <div>
+                  <h4>Bilibili</h4>
+                    <a href="https://space.bilibili.com/12135362">DLHTX</a>
+              </div>
+          </div>
+        </section>
+
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>宇牧科技</h4>
+                  <span>
+                    <time datetime="2018-01-01">Jan 2018</time> –
+                    <time datetime="2019-12-01">Dec 2019</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>前端开发工程师</strong>
+                </div>
+              </header>
+                <p>主要负责南京航空航天大学后勤管理平台的小程序开发和后台管理系统的开发，使用了ionic框架和vue进行开发</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>VUE</li>
+                    <li>Management System</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>九一智能科技</h4>
+                  <span>
+                    <time datetime="2019-01-01">Jan 2019</time> –
+                    <time datetime="2020-03-01">Mar 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>前端开发/后端开发</strong>
+                </div>
+              </header>
+                <p>负责领导团队开发某医院应用项目，包含移动端，小程序端的开发，医院后台的开发，医院智能人脸挂号系统开发，解决公司所有疑难杂事，如人脸识别、后台界面、项目重建、服务器部署等。主要涉及到vue,uniapp,python</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>VUE</li>
+                    <li>uniapp</li>
+                    <li>ptyhon</li>
+                    <li>leadership</li>
+                    <li>Frame construction</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>远程开发</h4>
+                  <span>
+                    <time datetime="2020-03-01">Mar 2020</time> –
+                    Present
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>前端开发/后端开发</strong>
+                </div>
+              </header>
+                <p>由于疫情，我选择了远程开发。自2020年3月以来，我在为某英国跨境电商公司做对于ebay和亚马逊电商管理平台对标的B端产品。并负责领导前端团队，搭建框架，开发项目组件库，业务开发文档规范书写，负责部分后端开发</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>VUE</li>
+                    <li>Remote work</li>
+                    <li>python</li>
+                    <li>Frame Construction</li>
+                    <li>Nodejs</li>
+                </ul>
+            </article>
+        </div>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>南京信息工程大学</h4>
+                  <span>
+                    <time datetime="2014-09-01">Sep 2014</time> –
+                    <time datetime="2018-06-01">Jun 2018</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>数字媒体</strong>
+                </div>
+              </header>
+                <p>交互方向</p>
+            </article>
+        </div>
+      </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>React开源音乐项目</h4>
+                  <span>
+                    <time datetime="2019-01-01">Jan 2019</time> –
+                    <time datetime="2020-01-01">Jan 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                      <strong>author</strong>
+                      at <strong>Entity</strong>
+                  </span>
+                    <a href="https://github.com/DLHTX/react-spotify">github.com/DLHTX/react-spotify</a>
+                </div>
+              </header>
+                <p>基于React+Typesript+mobx状态管理的开源音乐项目</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>React</li>
+                    <li>Typesript</li>
+                    <li>mobx</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>开源博客项目</h4>
+                  <span>
+                    <time datetime="2019-01-01">Jan 2019</time> –
+                    <time datetime="2020-01-01">Jan 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                      <strong>author</strong>
+                      at <strong>Entity</strong>
+                  </span>
+                    <a href="https://github.com/DLHTX/DLHTX-blog">github.com/DLHTX/DLHTX-blog</a>
+                </div>
+              </header>
+                <p>博客是在业余时间开发的综合项目，从服务器的硬件建设到Linux服务器的软件安装，从初步设计到交互开发，从前端开发到后端开发，从发布测试到运维推广,主要使用到的技术栈有vue+elementui,后端nestjs+typescript+mysql,运维方面使用了docker自动化部署</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Vue &amp; element</li>
+                    <li>Nestjs &amp; typeorm &amp; nestjs</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>博客项目API文档</h4>
+                  <span>
+                    <time datetime="2019-01-01">Jan 2019</time> –
+                    <time datetime="2020-01-01">Jan 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                      <strong>author</strong>
+                      at <strong>Entity</strong>
+                  </span>
+                    <a href=" http://www.dlhtx.top:3000/api/"> http://www.dlhtx.top:3000/api</a>
+                </div>
+              </header>
+                <p>博客项目API文档，该博客由于硬盘损坏导致NAS中的数据库损毁，所以之前的更新日志和博客和注册的上千用户全部丢失，至此了解了数据库备份的重要性</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Vue &amp; element</li>
+                    <li>Nestjs &amp; typeorm &amp; nestjs</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Swork</h4>
+                  <span>
+                    <time datetime="2019-01-01">Jan 2019</time> –
+                    <time datetime="2020-01-01">Jan 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                      <strong>author</strong>
+                      at <strong>Entity</strong>
+                  </span>
+                    <a href="https://testwork.growingsale.cn/">testwork.growingsale.cn</a>
+                </div>
+              </header>
+                <p>与合作伙伴用业余时间一起开发核心项目。用于管理远程工作的平台swork，目前与我们合做的有多个外国人，</p>
+    <p>主要使用的技术栈是quasar,electron,后端使用的是php,前端涉及到了serviceWorkers用作离线通知，websocket,webrtc p2p实现共享屏幕，微服务实现的插件系统。插件开发文档(后续会支持react开发插件)：http://devdoc.growingsale.cn/目前项目还未上线，</p>
+    <p>如果你有兴趣也可以加入我们团队</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Vue</li>
+                    <li>微前端/插件系统</li>
+                    <li>CI/CD自动持续集成部署</li>
+                    <li>webRTC</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Cubeorder</h4>
+                  <span>
+                    <time datetime="2019-01-01">Jan 2019</time> –
+                    <time datetime="2020-01-01">Jan 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                      <strong>author</strong>
+                      at <strong>Entity</strong>
+                  </span>
+                    <a href="https://app.cubeorder.com/">app.cubeorder.com</a>
+                </div>
+              </header>
+                <p>在英国运营的跨境电子商务CRM系统，作为项目的前端开发领导者，为项目构建基本框架和后续组件开发业务开发</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>vue</li>
+                    <li>Componentization</li>
+                    <li>Leader</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Vscode插件开发</h4>
+                  <span>
+                    <time datetime="2019-01-01">Jan 2019</time> –
+                    <time datetime="2020-01-01">Jan 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                      <strong>author</strong>
+                      at <strong>Entity</strong>
+                  </span>
+                    <a href="https://marketplace.visualstudio.com/items?itemName&#x3D;dlhtx.uniapp-snippet">marketplace.visualstudio.com/items?itemName&#x3D;dlhtx.uniapp-snippet</a>
+                </div>
+              </header>
+                <p>14k下载量的vscode插件</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>springboot</li>
+                    <li>Nestjs &amp; typeorm</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>某公司ERP系统</h4>
+                  <span>
+                    <time datetime="2019-01-01">Jan 2019</time> –
+                    <time datetime="2020-01-01">Jan 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                      <strong>author</strong>
+                      at <strong>Entity</strong>
+                  </span>
+                </div>
+              </header>
+                <p>ERP系统后台采用springboot+mybatis+MySQL技术栈，前端采用Vue，包括用户权限模块、报表模块等</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>springboot</li>
+                    <li>Nestjs &amp; typeorm</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>网络渗透项目</h4>
+                  <span>
+                    <time datetime="2019-01-01">Jan 2019</time> –
+                    <time datetime="2020-01-01">Jan 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                      <strong>author</strong>
+                      at <strong>Entity</strong>
+                  </span>
+                </div>
+              </header>
+                <p>使用cookie注入破解基于帝国CMS（某不法网站），使用爬虫抓取信息，使用Linux常规任务每天抓取并存储在数据库中，然后开发应用程序，让广大网民受益，受到网民的高度赞扬，目标：本项目的目的不是为了盈利，而是学习Web渗透的常用方法，包括SQL注入，xss攻击。这可以让我在开发前端项目时更加注意安全性</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>cookie注入</li>
+                    <li>ptyhon</li>
+                    <li>crawler</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>更多项目</h4>
+                  <span>
+                    <time datetime="2019-01-01">Jan 2019</time> –
+                    <time datetime="2020-01-01">Jan 2020</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                  <span>
+                      <strong>author</strong>
+                      at <strong>Entity</strong>
+                  </span>
+                </div>
+              </header>
+                <p>查看url获取项目详情：http://dlhtx.gitee.io/dlhtx_resume/</p>
+            </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+            <div>
+                <h4>混合App开发</h4>
+                <ul class="tag-list">
+                    <li>Hybrid app</li>
+                    <li>High performance</li>
+                </ul>
+            </div>
+            <div>
+                <h4>前端开发</h4>
+                <ul class="tag-list">
+                    <li>Vue</li>
+                    <li>React</li>
+                    <li>Typescript</li>
+                </ul>
+            </div>
+            <div>
+                <h4>后端开发</h4>
+                <ul class="tag-list">
+                    <li>Nodejs</li>
+                    <li>Nest.js</li>
+                    <li>Java</li>
+                    <li>Mysql</li>
+                    <li>Typescript</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Chrome插件开发/Figma插件开发</h4>
+                <ul class="tag-list">
+                    <li>Chrome</li>
+                </ul>
+            </div>
+            <div>
+                <h4>前端微服务框架</h4>
+                <ul class="tag-list">
+                    <li>mico-app</li>
+                    <li>Micro-Frontends</li>
+                </ul>
+            </div>
+            <div>
+                <h4>远程工作</h4>
+                <ul class="tag-list">
+                    <li>Remote</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Chinese</h4>
+              Native speaker
+            </div>
+            <div>
+                <h4>English</h4>
+              As foreigners will be contacted in some projects, i will have simple English communication and fluent written expression
+            </div>
+        </div>
+      </section>
+      <section id="interests">
+        <h3>Interests</h3>
+        <div class="grid-list">
+            <div>
+                <h4>智能家具</h4>
+                <ul class="tag-list">
+                    <li>Home Assistant</li>
+                    <li>智能家具DIy</li>
+                    <li>ZigBee/Z-Wave通讯</li>
+                </ul>
+            </div>
+            <div>
+                <h4>3D打印</h4>
+                <ul class="tag-list">
+                    <li>Maya</li>
+                    <li>Cura</li>
+                    <li>PLA材料和上色</li>
+                </ul>
+            </div>
+            <div>
+                <h4>数字板绘爱好</h4>
+                <ul class="tag-list">
+                    <li>Digital board drawing</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Logo Design</li>
+                    <li>UI Design</li>
+                </ul>
+            </div>
+            <div>
+                <h4>游戏</h4>
+                <ul class="tag-list">
+                    <li>steam忠实用户</li>
+                    <li>https://steamcommunity.com/profiles/76561198194926251/</li>
+                </ul>
+            </div>
+            <div>
+                <h4>自媒体</h4>
+                <ul class="tag-list">
+                    <li>Adobe pr剪辑软件</li>
+                    <li>B站Up:https://space.bilibili.com/12135362</li>
+                    <li>分享优秀且有趣的开源项目</li>
+                    <li>研究并发布有趣的开源项目</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+  </body>
+</html>

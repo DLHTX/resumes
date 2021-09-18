@@ -1,0 +1,363 @@
+{
+    "meta": {
+        "theme": "Kendall"
+    },
+    "basics": {
+        "name": "徐良俊",
+        "label": "前端开发",
+        "image": "https://avatars.githubusercontent.com/u/35157091?v=4",
+        "email": "dlhtx3@gmail.com",
+        "phone": "(86) 13913849623",
+        "url": "https://github.com/DLHTX",
+        "summary": "我是一名前端开发工程师，拥有4年的工作经验以及在各种公司和项目中的工作经验。开发过涵盖大部分场景的应用，我主要熟悉的前端技术栈是Vue和React，熟悉搭建各种应用架构，熟悉ES6 Ajax JSON ,微信小程序开发，app H5混合开发，electron桌面端应用混合开发，并了解一点后端知识，有实际后端项目经验，如Java、python、mysql，以及mysql，中间件、模块。了解Linux相关知识，有自己组装服务器的经验。大多数项目都部署在自己的服务器中，并且热爱新技术，热爱学习和分享",
+        "location": {
+            "city": "南京",
+            "countryCode": "CN",
+            "region": "江苏"
+        },
+        "profiles": [
+            {
+                "network": "Github",
+                "username": "DLHTX",
+                "url": "https://github.com/DLHTX"
+            },
+            {
+                "network": "Gitee",
+                "username": "DLHTX",
+                "url": "https://gitee.com/dlhtx/projects"
+            },
+            {
+                "network": "Bilibili",
+                "username": "DLHTX",
+                "url": "https://space.bilibili.com/12135362"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "宇牧科技",
+            "position": "前端开发工程师",
+            "startDate": "2018-01-01",
+            "endDate": "2019-12-01",
+            "summary": "主要负责南京航空航天大学后勤管理平台的小程序开发和后台管理系统的开发，使用了ionic框架和vue进行开发",
+            "highlights": [
+                "VUE",
+                "Management System"
+            ]
+        },
+        {
+            "name": "九一智能科技",
+            "position": "前端开发/后端开发",
+            "startDate": "2019-01-01",
+            "endDate": "2020-03-01",
+            "summary": "负责领导团队开发某医院应用项目，包含移动端，小程序端的开发，医院后台的开发，医院智能人脸挂号系统开发，解决公司所有疑难杂事，如人脸识别、后台界面、项目重建、服务器部署等。主要涉及到vue,uniapp,python",
+            "highlights": [
+                "VUE",
+                "uniapp",
+                "ptyhon",
+                "leadership",
+                "Frame construction"
+            ]
+        },
+        {
+            "name": "远程开发",
+            "position": "前端开发/后端开发",
+            "startDate": "2020-03-01",
+            "summary": "由于疫情，我选择了远程开发。自2020年3月以来，我在为某英国跨境电商公司做对于ebay和亚马逊电商管理平台对标的B端产品。并负责领导前端团队，搭建框架，开发项目组件库，业务开发文档规范书写，负责部分后端开发",
+            "highlights": [
+                "VUE",
+                "Remote work",
+                "python",
+                "Frame Construction",
+                "Nodejs"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "endDate": "2018-06-01",
+            "startDate": "2014-09-01",
+            "area": "数字媒体",
+            "studyType": "交互方向",
+            "institution": "南京信息工程大学"
+        }
+    ],
+    "skills": [
+        {
+            "name": "混合App开发",
+            "level": "Master",
+            "keywords": [
+                "Hybrid app",
+                "High performance"
+            ]
+        },
+        {
+            "name": "前端开发",
+            "level": "Master",
+            "keywords": [
+                "Vue",
+                "React",
+                "Typescript"
+            ]
+        },
+        {
+            "name": "后端开发",
+            "level": "Junior",
+            "keywords": [
+                "Nodejs",
+                "Nest.js",
+                "Java",
+                "Mysql",
+                "Typescript"
+            ]
+        },
+        {
+            "name": "Chrome插件开发/Figma插件开发",
+            "level": "Junior",
+            "keywords": [
+                "Chrome"
+            ]
+        },
+        {
+            "name": "前端微服务框架",
+            "level": "Junior",
+            "keywords": [
+                "mico-app",
+                "Micro-Frontends"
+            ]
+        },
+        {
+            "name": "远程工作",
+            "level": "",
+            "keywords": [
+                "Remote"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Chinese",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "As foreigners will be contacted in some projects, i will have simple English communication and fluent written expression"
+        }
+    ],
+    "interests": [
+        {
+            "name": "智能家具",
+            "keywords": [
+                "Home Assistant",
+                "智能家具DIy",
+                "ZigBee/Z-Wave通讯"
+            ]
+        },
+         {
+            "name": "3D打印",
+            "keywords": [
+                "Maya",
+                "Cura",
+                "PLA材料和上色"
+            ]
+        },
+        {
+            "name": "数字板绘爱好",
+            "keywords": [
+                "Digital board drawing",
+                "Adobe Photoshop",
+                "Logo Design",
+                "UI Design"
+            ]
+        },
+        {
+            "name": "游戏",
+            "keywords": [
+                "steam忠实用户",
+                "https://steamcommunity.com/profiles/76561198194926251/"
+            ]
+        },
+        {
+            "name": "自媒体",
+            "keywords": [
+                "Adobe pr剪辑软件",
+                "B站Up:https://space.bilibili.com/12135362",
+                "分享优秀且有趣的开源项目",
+                "研究并发布有趣的开源项目"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "React开源音乐项目",
+            "description": "基于React+Typesript+mobx状态管理的开源音乐项目",
+            "highlights": [
+                "React",
+                "Typesript",
+                "mobx"
+            ],
+            "url": "https://github.com/DLHTX/react-spotify",
+            "startDate": "2019-01-01",
+            "endDate": "2020-01-01",
+            "roles": [
+                "author"
+            ],
+            "entity": "Entity",
+            "type": "application"
+        },
+        {
+            "name": "开源博客项目",
+            "description": "博客是在业余时间开发的综合项目，从服务器的硬件建设到Linux服务器的软件安装，从初步设计到交互开发，从前端开发到后端开发，从发布测试到运维推广,主要使用到的技术栈有vue+elementui,后端nestjs+typescript+mysql,运维方面使用了docker自动化部署",
+            "highlights": [
+                "Vue & element",
+                "Nestjs & typeorm & nestjs"
+            ],
+            "keywords": [
+                "Vue",
+                "middleware",
+                "typescript"
+            ],
+            "startDate": "2019-01-01",
+            "endDate": "2020-01-01",
+            "url": "https://github.com/DLHTX/DLHTX-blog",
+            "roles": [
+                "author"
+            ],
+            "entity": "Entity",
+            "type": "application"
+        },
+        {
+            "name": "博客项目API文档",
+            "description": "博客项目API文档，该博客由于硬盘损坏导致NAS中的数据库损毁，所以之前的更新日志和博客和注册的上千用户全部丢失，至此了解了数据库备份的重要性",
+            "highlights": [
+                "Vue & element",
+                "Nestjs & typeorm & nestjs"
+            ],
+            "keywords": [
+                "Vue",
+                "middleware",
+                "typescript"
+            ],
+            "startDate": "2019-01-01",
+            "endDate": "2020-01-01",
+            "url": " http://www.dlhtx.top:3000/api/",
+            "roles": [
+                "author"
+            ],
+            "entity": "Entity",
+            "type": "application"
+        },
+        {
+            "name": "Swork",
+            "description": "与合作伙伴用业余时间一起开发核心项目。用于管理远程工作的平台swork，目前与我们合做的有多个外国人，\n\n主要使用的技术栈是quasar,electron,后端使用的是php,前端涉及到了serviceWorkers用作离线通知，websocket,webrtc p2p实现共享屏幕，微服务实现的插件系统。插件开发文档(后续会支持react开发插件)：http://devdoc.growingsale.cn/目前项目还未上线，\n\n如果你有兴趣也可以加入我们团队",
+            "highlights": [
+                "Vue",
+                "微前端/插件系统",
+                "CI/CD自动持续集成部署",
+                "webRTC"
+            ],
+            "url": "https://testwork.growingsale.cn/",
+            "startDate": "2019-01-01",
+            "endDate": "2020-01-01",
+            "roles": [
+                "author"
+            ],
+            "entity": "Entity",
+            "type": "application"
+        },
+        
+        {
+            "name": "Cubeorder",
+            "description": "在英国运营的跨境电子商务CRM系统，作为项目的前端开发领导者，为项目构建基本框架和后续组件开发业务开发",
+            "highlights": [
+                "vue",
+                "Componentization",
+                "Leader"
+            ],
+            "url":"https://app.cubeorder.com/",
+            "keywords": [
+                "Nodejs",
+                "Web Components"
+            ],
+            "startDate": "2019-01-01",
+            "endDate": "2020-01-01",
+            "roles": [
+                "author"
+            ],
+            "entity": "Entity",
+            "type": "application"
+        },
+        {
+            "name": "Vscode插件开发",
+            "description": "14k下载量的vscode插件",
+            "highlights": [
+                "springboot",
+                "Nestjs & typeorm"
+            ],
+            "url": "https://marketplace.visualstudio.com/items?itemName=dlhtx.uniapp-snippet",
+            "keywords": [
+                "Mybatis",
+                "middleware",
+                "typescript"
+            ],
+            "startDate": "2019-01-01",
+            "endDate": "2020-01-01",
+            "roles": [
+                "author"
+            ],
+            "entity": "Entity",
+            "type": "application"
+        },
+        {
+            "name": "某公司ERP系统",
+            "description": "ERP系统后台采用springboot+mybatis+MySQL技术栈，前端采用Vue，包括用户权限模块、报表模块等",
+            "highlights": [
+                "springboot",
+                "Nestjs & typeorm"
+            ],
+            "keywords": [
+                "Mybatis",
+                "middleware",
+                "typescript"
+            ],
+            "startDate": "2019-01-01",
+            "endDate": "2020-01-01",
+            "roles": [
+                "author"
+            ],
+            "entity": "Entity",
+            "type": "application"
+        },
+        {
+            "name": "网络渗透项目",
+            "description": "使用cookie注入破解基于帝国CMS（某不法网站），使用爬虫抓取信息，使用Linux常规任务每天抓取并存储在数据库中，然后开发应用程序，让广大网民受益，受到网民的高度赞扬，目标：本项目的目的不是为了盈利，而是学习Web渗透的常用方法，包括SQL注入，xss攻击。这可以让我在开发前端项目时更加注意安全性",
+            "highlights": [
+                "cookie注入",
+                "ptyhon",
+                "crawler"
+            ],
+            "keywords": [
+                "middleware",
+                "typescript"
+            ],
+            "startDate": "2019-01-01",
+            "endDate": "2020-01-01",
+            "roles": [
+                "author"
+            ],
+            "entity": "Entity",
+            "type": "application"
+        },
+        {
+            "name": "更多项目",
+            "description": "查看url获取项目详情：http://dlhtx.gitee.io/dlhtx_resume/",
+            "startDate": "2019-01-01",
+            "endDate": "2020-01-01",
+            "roles": [
+                "author"
+            ],
+            "entity": "Entity",
+            "type": "application"
+        }
+    ]
+}
